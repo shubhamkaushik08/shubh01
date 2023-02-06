@@ -65,6 +65,6 @@ jobs:
           app-name: 'shubh'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F727488AF6F94810863950E26DD7F96A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_112D335380164B708140161CDB2DE472 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
